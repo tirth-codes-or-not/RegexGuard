@@ -1,0 +1,6 @@
+{
+    "xss": ["<script>alert(1)</script>", "javascript:alert(1)"],
+    "ssrf": ["http://169.254.169.254", "file:///etc/passwd"],
+    "open_redirect": ["https://evil.com/redirect", "//evil.com"],
+    "sql_injection": ["' OR 1=1--", "SELECT * FROM users"]
+}
